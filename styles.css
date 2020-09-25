@@ -23,26 +23,3 @@ p {
 .menu__link:last-child {
   padding-right: 0;
 }
-.section {
-  display: flex;
-  align-items: space-between;
-}
-.main__title {
-  display: flex;
-  justify-content: flex-start;
-  width: 30%;
-  padding-top: 318px;
-}
-.main__text {
-  width: 24%;
-  padding: 40px 0;
-}
-.main__button {
-  width: 14%;
-}
-.image {
-  display: flex;
-  justify-content: flex-end;
-  width: 40%;
-  padding-top: 242px;
-}

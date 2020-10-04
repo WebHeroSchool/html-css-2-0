@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -73,4 +74,38 @@
 .menu__link_active::after {
   opacity: 1;
   width: 100%;
+}
+
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__title {
+  font: bold 50px/66px 'PT Serif', serif , sans-serif, arial, helvetica;
+  margin: 0 0 40px 0;
+}
+
+.main__title_highlight {
+  background: #ecf3ff;
+}
+
+.main__text {
+  font: 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
+  margin: 0 0 41px 0;
+}
+
+.main__button {
+  font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;
+  display: inline-block;
+  color: #fff;
+  background: #0056ec;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }

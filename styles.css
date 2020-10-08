@@ -111,3 +111,105 @@
 .main__button:hover {
   opacity: .5;
 }
+
+@media (max-width: 1560px) {
+  .wrapper {
+    width: 69%;
+}
+
+.menu__link {
+  font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;
+}
+
+  .main {
+  padding: 0 58% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__title {
+  font: bold 50px/66px 'PT Serif', serif, sans-serif, arial, helvetica;
+}
+
+.main__title_highlight {
+  background: #ecf3ff;
+}
+
+.main__text {
+  font: 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
+  width: auto;
+  height: auto;
+}
+
+.main__button {
+  font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;
+  padding: 14px 16px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .wrapper {
+    width: 92%;
+  }
+}
+
+@media (max-width: 961px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+
+  .main__title {
+    font: bold 30px/40px 'PT Serif', serif, sans-serif, arial, helvetica;
+    margin-bottom: 44px;
+  }
+
+  .main__text {
+    font: 500 16px/19px 'Roboto', sans-serif, arial, helvetica;
+    margin-bottom: 25px;
+  }
+
+  .main__button {
+    font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo__mobile {
+    padding: 40px 0;
+    padding-left: 44px;
+    position: relative;
+  }
+
+  .logo__circle {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(50%);
+    border-radius: 50%;
+    opacity: .7;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 8px;
+    top: 56%;
+    background: #c8dbfb;
+  }
+
+  .logo__circle_color_blue {
+    background: #0056ec;
+  }
+}

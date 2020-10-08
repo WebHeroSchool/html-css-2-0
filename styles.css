@@ -112,6 +112,10 @@
   opacity: .5;
 }
 
+.burger__menu {
+  display: none;
+}
+
 @media (max-width: 1560px) {
   .wrapper {
     width: 69%;
@@ -211,5 +215,16 @@
 
   .logo__circle_color_blue {
     background: #0056ec;
+  }
+
+  .burger__menu {
+    position: relative;
+    left: 95%;
+    top: 115px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #0056ec;
+    margin: 4px 0;
   }
 }

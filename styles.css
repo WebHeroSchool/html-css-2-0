@@ -123,7 +123,7 @@
 
   .menu__link {
     font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;
-}
+  }
 
   .header {
     margin-bottom: 40px;
@@ -132,21 +132,21 @@
   .main {
     padding: 55px 58% 100px 0;
     background: center right no-repeat url(img/mainimg.svg);
-}
+  }
 
   .main__title {
     font: bold 50px/66px 'PT Serif', serif, sans-serif, arial, helvetica;
-}
+  }
 
   .main__title_highlight {
     background: #ecf3ff;
-}
+  }
 
   .main__text {
     font: 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
     width: auto;
     height: auto;
-}
+  }
 
   .main__button {
     font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;

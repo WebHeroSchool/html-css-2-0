@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   padding: 35px 3px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .logo {
@@ -77,8 +77,8 @@
 }
 
 .main {
-  padding: 100px 63% 100px 0;
-  background: top right no-repeat url(img/main.svg);
+  padding: 55px 63% 100px 0;
+  background: center right no-repeat url(img/main.svg);
 }
 
 .main__title {
@@ -125,9 +125,13 @@
     font: 500 14px/16px 'Roboto', sans-serif, arial, helvetica;
 }
 
+  .header {
+    margin-bottom: 40px;
+  }
+
   .main {
-    padding: 0 58% 100px 0;
-    background: top right no-repeat url(img/mainimg.svg);
+    padding: 55px 58% 100px 0;
+    background: center right no-repeat url(img/mainimg.svg);
 }
 
   .main__title {
@@ -161,8 +165,12 @@
     display: none;
   }
 
+  .wrapper {
+    width: 87%;
+  }
+
   .header {
-    margin-bottom: 28px;
+    padding: 0;
   }
 
   .main {
@@ -180,6 +188,7 @@
   .main__text {
     font: 500 16px/19px 'Roboto', sans-serif, arial, helvetica;
     margin-bottom: 25px;
+    padding: 0 35px;
   }
 
   .main__button {
@@ -191,9 +200,9 @@
   }
 
   .logo__mobile {
-    padding: 40px 0;
-    padding-left: 44px;
+    padding: 0;
     position: relative;
+    margin-bottom: 28px;
   }
 
   .logo__circle {
@@ -209,7 +218,7 @@
 
   .logo__circle_color_dark-blue {
     left: 8px;
-    top: 56%;
+    top: 5px;
     background: #c8dbfb;
   }
 
@@ -220,7 +229,7 @@
   .burger__menu {
     position: relative;
     left: 95%;
-    top: 115px;
+    top: 37px;
     display: block;
     width: 25px;
     height: 3px;

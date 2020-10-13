@@ -79,6 +79,13 @@
 .main {
   padding: 80px 63% 140px 0;
   background: center right no-repeat url(img/main.svg);
+  animation: flash 3s infinite alternate;
+}
+
+@keyframes flash {
+  to {
+    color: blue;
+  }
 }
 
 .main__title {
